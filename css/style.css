@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(0, 0%, 95%);
+}
+
+body, html {
+    background-color: hsl(0, 0%, 95%);
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    margin: auto;
+}
+
+article {
+    margin-top: 30%;
+    margin-bottom: 30%;
+    width: 300px;
+    height: 900px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+div {
+    padding: 40px;
+}
+div img {
+    margin-bottom: 40px;
+}
+
+div h1 {
+    margin-bottom: 40px;
+}
+
+div p {
+    margin-bottom: 20px;
+}
+
+div button {
+    width: 120px;
+    height: 45px;
+    border: none;
+    border-radius: 60px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display' , sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    width: 300px;
+    height: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.sedan img {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedan h1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedan p {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedan button {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedan button:active {
+    border: white 1px solid;
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+    height: 400px;
+}
+
+.suv img {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suv h1 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suv p {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suv button {
+    color: hsl(184, 100%, 22%);
+}
+
+.suv button:active {
+    border: white 1px solid;
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    height: 400px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.luxury img {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury h1 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury p {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury button {
+   color: hsl(179, 100%, 13%);
+}
+
+.luxury button:active {
+    border: white 1px solid;
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
